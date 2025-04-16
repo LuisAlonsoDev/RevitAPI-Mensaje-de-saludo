@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>RevitAPITaskDialog.dll</Assembly>
+		<AddInId>eabe892f-36db-4ae3-9922-45dda83b40bc</AddInId>
+		<FullClassName>RevitAPITaskDialog.CmdDefecto</FullClassName>
+		<Text>Saludo</Text>
+		<Description>Un simple comando de plantilla</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<VendorId>CRONOS</VendorId>
+		<VendorDescription>Cronos Arquitectura e Ingenieria</VendorDescription>
+	</AddIn>
+</RevitAddIns>
