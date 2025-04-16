@@ -25,7 +25,8 @@ namespace RevitAPITaskDialog
                                    " distintas caracteristicas como hospitalarios, educativos, subestacion y entre" +
                                    " otros. Tambien me desempeño en desarrollar aplicaciones tipo Addin en el" +
                                    " entorno de desarrollo de Revit."+
-                                   "este contenido es de uso de ejemplo";
+                                   "este contenido es de uso de ejemplo"+
+                                   "este contenido es de uso de mero ejemplo";
             mywindow.FooterText = "Copyright (C) 2023 by Cronos Arquitectura e Ingenieria";
             mywindow.ExpandedContent = "Si necesita saber mas sobre el aplicativo puede revisar los videos " +
                                         "dentro de nuestro canal de Youtube CronosBim o comunicarse al numero de celular 988706396";
