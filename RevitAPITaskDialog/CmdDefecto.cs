@@ -14,8 +14,8 @@ namespace RevitAPITaskDialog
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            TaskDialog mywindow = new TaskDialog("mi Ventana");
-            mywindow.Title = "Hola Cronos";
+            TaskDialog mywindow = new TaskDialog("Mi Saludo");
+            mywindow.Title = "Hola CRONOS BIM";
             mywindow.TitleAutoPrefix = false;
             mywindow.MainIcon = TaskDialogIcon.TaskDialogIconInformation;
             mywindow.MainInstruction = "Saludos...";
@@ -24,7 +24,8 @@ namespace RevitAPITaskDialog
                                    " tecnologias en la metodologia BIM, me dedico a trabajar en proyectos de" +
                                    " distintas caracteristicas como hospitalarios, educativos, subestacion y entre" +
                                    " otros. Tambien me desempeño en desarrollar aplicaciones tipo Addin en el" +
-                                   " entorno de desarrollo de Revit.";
+                                   " entorno de desarrollo de Revit."+
+                                   "este contenido es de uso de ejemplo";
             mywindow.FooterText = "Copyright (C) 2023 by Cronos Arquitectura e Ingenieria";
             mywindow.ExpandedContent = "Si necesita saber mas sobre el aplicativo puede revisar los videos " +
                                         "dentro de nuestro canal de Youtube CronosBim o comunicarse al numero de celular 988706396";
